@@ -1,0 +1,12 @@
+KCutAlgorithm/plugins/
+KCutAlgorithm/simulator.conf
+KCutAlgorithm/stderr
+KCutAlgorithm/USES.jar
+KCutAlgorithm/.*
+KCutAlgorithm/bin
+MixWF_Sim/.gradle/
+MixWF_Sim/build/
+MixWF_Sim/bin
+MixWF_Sim/*.conf
+MixWF_Sim/plugins/*.jar
+MixWF_Sim.*

@@ -1,0 +1,34 @@
+apply plugin: 'java'
+apply plugin:  'application'
+
+
+
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	compile fileTree(dir:'libs',include:['*.jar'])
+	compile group: 'log4j', name: 'log4j', version: '1.2.16'
+}
+
+mainClassName = 'com.use.CLILauncher'
+
+
+//task runApp(type: JavaExec) {
+//  classpath = configurations.compile + sourceSets.main.output
+//
+//  main = 'com.use.CLILauncher'
+//
+//	args=["$arg1","$arg2"]
+//}
+
+task encode(type: JavaExec, dependsOn: classes) {
+
+main = 'com.use.CLILauncher'
+    args = "--config workflow.conf".split().toList()
+    classpath sourceSets.main.output
+    classpath configurations.compile
+}

@@ -1,0 +1,66 @@
+#!/bin/bash
+
+args=( "true" "1000" "5" )
+
+indexList=( "1" "0" )
+valueList=( "1000 1500" "false true" )
+# indexList=( "2" "0" )
+# valueList=( "5 6 7 8 9" "false true" )
+
+# scheduler="m3.M3Scheduler"
+# simulator="M3Simulator"
+# sortMethod="EarlistDeadlineFirst"
+# indexList=( "1" "0" )
+# valueList=( "$sortMethod" "$scheduler" )
+
+
+function run() {
+	if [ -z "${indexList[$1]}" ]; then
+		echo "generator=peter.PeterGenerator
+scheduler=peter.PeterScheduleRanking
+simulator=PeterSimulatorRanking
+platform=PeterPlatform" > Peter.conf
+	echo "deployAlgorithm=KcutAlgorithm
+parallemMethod=LevelBaseAlgorithm
+totalService=20
+totalDag=10
+interArrivalTimeSeed=5
+interArrivalTimeMean=5
+communicationFactor=1
+computationFactor=10
+levelOneFork=3
+levelTwoFork=2
+rateFactor=10000
+requestNumber=${args[1]}
+totalVM=${args[2]}
+usingRateFactor=false
+balanceRequest=false
+overwriteResult=true
+cloneService=false
+useRanking=${args[0]}
+isRegret=false
+extraVM=0
+rankingQueue=false
+" > args.conf
+	java -cp bin:USES.jar com.use.CLILauncher --config Peter.conf
+	fi
+	
+	for value in ${valueList[$1]}
+	do
+		if [ -z "${indexList[$1]}" ]; then
+			continue
+		fi
+		args[${indexList[$1]}]=$value
+		run $(( $1 + 1 ))
+		test $1 -eq 0 && echo
+	done
+}
+
+# cp DVFS.conf DVFS.conf.bak
+# cp resource/args.conf resource/args.conf.bak
+
+exec 3> >(tee stdout) 4> >(tee stderr >&2)
+run 0 >&3 2>&4
+
+# cp DVFS.conf.bak DVFS.conf
+# cp resource/args.conf.bak resource/args.conf

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="false" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="com.use.scheduler.deploy.RandomAlgorithm" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/scheduler/deploy/RandomAlgorithm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="238" x="3536" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.use.scheduler.deploy.ASRG" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/scheduler/deploy/ASRG.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="342" x="496" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.use.scheduler.deploy.KcutAlgorithm" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/scheduler/deploy/KcutAlgorithm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="359" x="3814" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.use.scheduler.deploy.LevelBaseAlgorithm" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/scheduler/deploy/LevelBaseAlgorithm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="202" x="496" y="1166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.use.scheduler.deploy.MinimalService" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/scheduler/deploy/MinimalService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="181" x="1121" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="com.use.scheduler.deploy.IPeterDeploy" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/scheduler/deploy/IPeterDeploy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="238" x="3536" y="1166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="com.use.scheduler.peter.PeterSchedule" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/scheduler/peter/PeterSchedule.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="264" x="4781" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.use.scheduler.peter.PeterScheduleRanking" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/scheduler/peter/PeterScheduleRanking.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="205" x="4901" y="1166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.use.scheduler.peter.ResourcePair" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/scheduler/peter/ResourcePair.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="172" x="284" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.use.simulator.PeterSimulatorRanking" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/simulator/PeterSimulatorRanking.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="194" x="4280" y="1166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.use.simulator.PeterSimulatorCloneS" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/simulator/PeterSimulatorCloneS.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="214" x="3814" y="1166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.use.simulator.PeterSimulatorRate" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/simulator/PeterSimulatorRate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="172" x="4068" y="1166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.use.simulator.AssignService" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/simulator/AssignService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="441" width="350" x="2050" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.use.simulator.PeterSimulator" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/simulator/PeterSimulator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="249" x="4213" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.use.simulator.PeterSimulatorMixS" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/simulator/PeterSimulatorMixS.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="138" x="3814" y="1575"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.use.utils.NormalDistribution" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/utils/NormalDistribution.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="203" x="878" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.use.workflow.AWorkflow" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/workflow/AWorkflow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="188" x="5481" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.use.workflow.SimpleWorkflow" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/workflow/SimpleWorkflow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="173" x="5481" y="1166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.use.workflow.ranking.PeterBottomAmountRank" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/workflow/ranking/PeterBottomAmountRank.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="169" x="5085" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.use.workflow.ranking.PeterBottomRank" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/workflow/ranking/PeterBottomRank.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="147" x="5294" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="21" language="java" name="com.use.workflow.ranking.IRanking" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/workflow/ranking/IRanking.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="147" x="5189" y="1166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="22" language="java" name="com.use.workflow.service.PeterService" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/workflow/service/PeterService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1089" width="221" x="1342" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.use.workflow.service.PeterActionPerform" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/workflow/service/PeterActionPerform.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="187" x="2819" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.use.workflow.task.PeterTask" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/workflow/task/PeterTask.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="209" x="3287" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="25" language="java" name="com.use.workflow.task.IPeterAttribute" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/workflow/task/IPeterAttribute.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="209" x="3287" y="1166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="26" language="java" name="com.use.workflow.task.info.WorkflowTaskInfo" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/workflow/task/info/WorkflowTaskInfo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="513" width="201" x="3046" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.use.resource.platform.PeterPlatform" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/resource/platform/PeterPlatform.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="156" x="2623" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.use.resource.info.informIResNode" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/resource/info/informIResNode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="154" x="1603" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="29" language="java" name="com.use.resource.IResPeter" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/resource/IResPeter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="213" x="1797" y="1166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="30" language="java" name="com.use.resource.PeterNode" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/resource/PeterNode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="213" x="1797" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.use.queue.SubmitQueueSJF" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/queue/SubmitQueueSJF.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="143" x="2440" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.use.generator.peter.PeterGenerator" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/generator/peter/PeterGenerator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="347" x="4514" y="1166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="com.use.generator.AWorkflowGenerator" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/generator/AWorkflowGenerator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="227" x="4514" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="com.use.config.PeterVariable" project="KCutAlgorithm" 
+    file="/KCutAlgorithm/src/com/use/config/PeterVariable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="909" width="201" x="43" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="35">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <generalization id="36">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <realization id="38">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <realization id="40">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="41">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <generalization id="42">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="43">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <realization id="45">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="25"/>  
+  </realization>  
+  <generalization id="46">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="47">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="33"/>  
+  </generalization>  
+  <realization id="48">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="29"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
